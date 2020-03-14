@@ -1,0 +1,103 @@
+.body {
+    font-family: arial;
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.message {
+    text-align: center;
+}
+
+.message img {
+    max-width: 10%;
+    padding-top: 5%;
+}
+
+.message p:nth-child(2){
+    font-size: 160%;
+    font-weight: 400;
+}
+
+.message button{
+    padding-left: 8px;
+    padding-right: 8px;
+    background-color: rgb(233, 27, 112);
+    color: white;
+    font-size: larger;
+    border: solid 1px rgb(233, 27, 112);
+    border-radius: 5px;
+    animation: glow 1s ease-in-out infinite;
+}
+
+@keyframes glow{
+    0%{
+        border: solid 5px rgb(233, 27, 112);
+    }
+
+    25%{
+        border: solid 5px rgb(255, 48, 135);
+    }
+
+    50%{
+        border: solid 5px rgb(255, 140, 188);
+    }
+
+    75%{
+        border: solid 5px rgb(255, 48, 135);
+    }
+
+    100%{
+        border: solid 5px rgb(233, 27, 112);
+    }
+}
+
+.frame {
+    margin-bottom: 5%;
+}
+
+.portfolio p:nth-child(1) {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact {
+    background-color: rgb(238, 238, 238);
+}
+
+.submit {
+    width: 100%;
+    color: white;
+    background-color: rgb(233, 27, 112);
+    border: 1px solid rgb(233, 27, 112);
+    border-radius: 3px;
+}
+
+.svgs {
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.explore {
+    font-size: 5px;
+    text-align: center;
+    color: rgb(27, 133, 233);
+}
+
+.explore a {
+    text-decoration: none;
+}
+
+.page-footer {
+    padding-bottom: 20px;
+}
+
+.page-footer a{
+    text-decoration: none;
+    color: orange;
+}
+.socials a{
+    color: black;
+}
