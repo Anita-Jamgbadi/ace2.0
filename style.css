@@ -6,6 +6,10 @@ header {
     border-bottom: 1px solid black;
 }
 
+.myactive {
+    text-decoration: orange overline;
+}
+
 .message {
     text-align: center;
 }
@@ -28,28 +32,33 @@ header {
     font-size: larger;
     border: solid 1px rgb(233, 27, 112);
     border-radius: 5px;
-    animation: glow 1s ease-in-out infinite;
+    animation: glow 2s ease-in-out infinite;
 }
 
 @keyframes glow{
     0%{
         border: solid 5px rgb(233, 27, 112);
+        background-color: rgb(233, 27, 112);
     }
 
     25%{
         border: solid 5px rgb(255, 48, 135);
+        background-color: rgb(255, 48, 135);
     }
 
     50%{
-        border: solid 5px rgb(255, 140, 188);
+        border: solid 5px rgb(238, 108, 162);
+        background-color: rgb(238, 108, 162);
     }
 
     75%{
         border: solid 5px rgb(255, 48, 135);
+        background-color: rgb(255, 48, 135);
     }
 
     100%{
         border: solid 5px rgb(233, 27, 112);
+        background-color: rgb(233, 27, 112);
     }
 }
 
@@ -64,11 +73,12 @@ header {
 }
 
 .contact {
-    background-color: rgb(238, 238, 238);
+    background-color: whitesmoke;
 }
 
 .submit {
     width: 100%;
+    line-height: 25px;
     color: white;
     background-color: rgb(233, 27, 112);
     border: 1px solid rgb(233, 27, 112);
@@ -83,11 +93,12 @@ header {
 .explore {
     font-size: 5px;
     text-align: center;
-    color: rgb(27, 133, 233);
+    color: white;
 }
 
 .explore a {
     text-decoration: none;
+    color: white;
 }
 
 .page-footer {
@@ -100,4 +111,211 @@ header {
 }
 .socials a{
     color: black;
+}
+
+.tabby {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+.tabby a {
+    color: rgb(243, 166, 24);
+}
+
+#myTabContent {
+    margin-top: 3%;
+}
+
+#myTabContent img {
+    margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.image {
+    background-color: rgb(73, 22, 59);
+    height: 200px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.backdrop {
+    max-width: 80%;
+    height: 200px;
+    position: relative;
+}
+
+.content {
+    background-color: white;
+    height: auto;
+    margin-top: -6%;
+    margin-bottom: 3%;
+    position: relative;
+}
+
+.content p:nth-child(1) {
+    font-weight: bold;
+    font-size: large;
+    line-height: 0em;
+}
+
+.content .row {
+    margin-bottom: 2%;
+}
+
+.collage {
+    text-align: center;
+}
+
+.half{
+    text-align: right;
+    margin-right: 0px;
+}
+
+.half2 {
+    text-align: left;
+    margin-left: 0px;
+}
+
+.collage img:nth-child(-n+1){
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner img{
+    max-width: 50%;
+    height: auto;
+}
+
+#pin {
+    width: 25px;
+    height: auto;
+}
+
+.story {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.story a{
+    text-decoration: none;
+    color: black;
+}
+
+.story i {
+    color: pink;
+    text-shadow: rgb(194, 83, 102);
+    text-align: right;
+}
+
+.loader-bg {
+    position: fixed;
+    z-index: 99;
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.load-img {
+    width: 150px;
+    height: auto;
+}
+.loader {
+    border-top: 5px solid pink;
+    border-bottom: 5px solid orange;
+    border-left: 5px solid blue;
+    border-right: 5px solid green;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    animation: load 2s linear infinite;
+}
+
+@keyframes load {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.hidden {
+    animation: fade 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#back {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: rgb(248, 239, 223);
+    background: rgb(245, 243, 240);
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    z-index: 1;
+}
+
+.card_img {
+
+}
+
+.contact-form {
+    background-color: rgb(224, 222, 218);
+}
+
+.contact-form-page {
+    background: url(angular.jpg);
+    background-position: center;
+
+}
+
+.contact-form-text {
+    position: relative;
+    text-align: center;
+}
+
+.contact-done {
+    border-color: inherit;
+}
+
+.subheading {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.aboutLead {
+    font-weight: bold;
+}
+
+.aboutPage {
+    background-image: url(ace1c.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 180px 160px;
+}
+
+.no-js .loader-bg{
+    display: none;
 }

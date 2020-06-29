@@ -3,62 +3,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
     <link rel="stylesheet" href="style.css">
     <title>Ace</title>
+
 </head>
 <body>
+    <div class="loader-bg hidden">
+        <div class="loader">
+        </div>
+        <img src="ace1c.png" class="load-img" alt="loading...">
+    </div>
 
 <!--Start navbar-->
-    
-   <header>
-                    
+
+    <header>
+                        
             <div class="container">
                     <nav class="navbar navbar-expand-xl bg-faded navbar-light">
                             <!-- Brand -->
-                            <span class="navbar-brand brand">ACE PLAYHOUSE</span>
+                            <span class="navbar-brand brand">
+                                <img src="ace1c.png" alt="" class="img-fluid" id="pin">
+                                ACE PLAYHOUSE
+                            </span>
+
                             <!-- Toggler/collapsibe Button -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                                <i class="fa fa-bars" aria-hidden="true"> </i>
+                                &#9776
                             </button>                   
-                        
-                            <!-- Navbar links -->
-                        <div class="collapse navbar-collapse " id="collapsibleNavbar">
-                            <ul class="navbar-nav justify-content-end w-100 my-links">
-
-                                <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Ace</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="IT.html">IT</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="stories.html">Stories</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                                </li>
                             
-                            </ul>
-                        </div>
+                            <!-- Navbar links -->
+                            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                                <ul class="navbar-nav justify-content-end w-100 my-links">
+
+                                    <li class="nav-item">
+                                    <a class="nav-link myactive" href="index.html">Ace</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="stories.html">Stories</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                
+                                </ul>
+                            </div>
                     </nav>
             </div>
-                    
+                        
     </header>
-<!--End navbar--> 
-
+    <!--End navbar--> 
 <!--START MESSAGE-->
         <div class="container message">
             <div class="row">
                 <div class="col-12">
                     <img src="ace1c.png" alt="" class="img-fluid">
                     <p>In our universe, Your imagination becomes reality.</p>
-                    <button class="explore"> Explore Our Universe </button>
+                    <button class="explore"> <a href="portfolio.html"> Explore Our Universe </a></button>
                 </div>
             </div>
         </div>
- 
+
 <!--END MESSAGE--> 
 
 <!--START GALLERY--> 
@@ -66,14 +78,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <img src="Frame 2.png" alt="" class="img-fluid frame">
+                    <img src="Frame.jpg" alt="" class="img-fluid frame">
                 </div>
             </div>
         </div>
 
 <!--END GALLERY-->
-
-<!--START SERVICES-->
+    <!--START SERVICES-->
 
                 <div class="container portfolio">
 
@@ -81,23 +92,23 @@
                     <div class="row">
 
                             <div class="col-12 col-md-6 svgs">
-                                <img src="Branding.svg" alt="" class="img-fluid mx-auto d-block" style="text-align: center;">
-                            </div>
-                            
-                                
-                            <div class="col-12 col-md-6 svgs">
-                                <img src="Event Logistics.svg" alt="" class="img-fluid mx-auto d-block" >
-                            </div>
-
-
-                            <div class="col-12 col-md-6 svgs">
-                                <img src="IT Development.svg" alt="" class="img-fluid mx-auto text-center">
+                                <a href="portfolio.html#branding">
+                                    <img src="Branding.svg" alt="" class="img-fluid mx-auto d-block" style="text-align: center;">
+                                </a>
                             </div>
 
                             <div class="col-12 col-md-6 svgs">
-                                <img src="Advert.svg" alt="" class="img-fluid mx-auto d-block" >
+                                <a href="portfolio.html#tech">
+                                    <img src="IT Development.svg" alt="" class="img-fluid mx-auto text-center">
+                                </a>
+
                             </div>
 
+                            <div class="col-12 svgs">
+                                <a href="portfolio.html#media">
+                                    <img src="Advert.svg" alt="" class="img-fluid mx-auto d-block" >
+                                </a>
+                            </div>
 
                     </div>
 
@@ -135,20 +146,20 @@
                     <div class="col-12 col-md-6">
                         <form action="">
                             <div class="form-group">
-                                 <input type="email" class="form-control" placeholder="Email">
+                                 <input type="email" class="form-control" placeholder="Email" aria-required="true">
                             </div>
 
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Full Name">
+                                <input type="text" class="form-control" placeholder="Full Name" required>
                             </div>
 
                             <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="Phone Number">
+                                <input type="tel" class="form-control" placeholder="Phone Number" required>
                             </div>
 
                                 
-                            <div class="form-group">
-                                <select class="form-control" id="service"  >                          
+                            <div class="form-group" >
+                                <select class="form-control" id="service" aria-required="true">                          
                                     <option value="">What service do you require?</option>
                                     <option value="">Branding</option>
                                     <option value="">IT Development</option>
@@ -202,10 +213,10 @@
 <!--FOOTER ENDS-->
 
 
-
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="ace.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="ace.js"></script>
 </body>
 </html>
