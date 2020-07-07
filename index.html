@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
+    
     <title>Ace</title>
 
 </head>
@@ -18,205 +21,311 @@
 
 <!--Start navbar-->
 
-    <header>
-                        
-            <div class="container">
-                    <nav class="navbar navbar-expand-xl bg-faded navbar-light">
-                            <!-- Brand -->
-                            <span class="navbar-brand brand">
-                                <img src="ace1c.png" alt="" class="img-fluid" id="pin">
-                                ACE PLAYHOUSE
-                            </span>
+        <div class="hr">
+            <div class="hr1"></div> <div class="hr2"></div> <div class="hr3"></div> <div class="hr4"></div>            
+            <div class="hr1"></div> <div class="hr2"></div> <div class="hr3"></div> <div class="hr4"></div>            
+            <div class="hr5"></div> <div class="hr6"></div> <div class="hr7"></div> <div class="hr8"></div>            
+            <div class="hr4"></div> <div class="hr3"></div> <div class="hr2"></div> <div class="hr1"></div>            
+            <div class="hr4"></div> <div class="hr3"></div> <div class="hr2"></div> <div class="hr1"></div>            
+        </div>
 
-                            <!-- Toggler/collapsibe Button -->
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                                &#9776
-                            </button>                   
-                            
-                            <!-- Navbar links -->
-                            <div class="collapse navbar-collapse " id="collapsibleNavbar">
-                                <ul class="navbar-nav justify-content-end w-100 my-links">
+        <nav class="navbar navbar-expand-xl bg-faded mynav" >
+            <div class="container my-links">
 
-                                    <li class="nav-item">
-                                    <a class="nav-link myactive" href="index.html">Ace</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="stories.html">Stories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="contact.html">Contact</a>
-                                    </li>
-                                
-                                </ul>
-                            </div>
-                    </nav>
+                <!-- Brand -->
+                <span class="navbar-brand">
+                    <img src="ace1c.png" alt="" class="img-fluid" id="pin">
+                    ACE PLAYHOUSE
+                </span>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler brand" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    &#9776
+                </button>                   
+                
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                    <ul class="navbar-nav justify-content-end w-100">
+
+                        <li class="nav-item">
+                        <a class="nav-link myactive" href="index.html">Ace</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="stories.html">Stories</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    
+                    </ul>
+                </div>
             </div>
-                        
-    </header>
+        </nav>
+
+                    
     <!--End navbar--> 
-<!--START MESSAGE-->
-        <div class="container message">
+<!--START Header-->
+        <div class="carousel-wrapper">  
+
+                        <div id="carouselControls" class="carousel slide myCarousel" data-ride="carousel">
+                            <div class="carousel-inner">
+                            
+
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="content/media/brandyjpg.jpg" alt="First slide">                                 
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="content/media/media2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="content/media/ad1.jpg" alt="Second slide">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="content/media/nope.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="frame.jpg" alt="Second slide">
+                                </div>
+                                
+
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                            
+                        </div>
+        </div> 
+
+        <div class="container message d-block">
             <div class="row">
                 <div class="col-12">
                     <img src="ace1c.png" alt="" class="img-fluid">
-                    <p>In our universe, Your imagination becomes reality.</p>
-                    <button class="explore"> <a href="portfolio.html"> Explore Our Universe </a></button>
+                    <p>Imagination made believe.</p>
                 </div>
             </div>
-        </div>
+        </div><br><br>
+    
 
-<!--END MESSAGE--> 
+<!--END Header--> 
 
-<!--START GALLERY--> 
-        <br><br>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <img src="Frame.jpg" alt="" class="img-fluid frame">
-                </div>
-            </div>
-        </div>
+<!--START MESSAGE-->
 
-<!--END GALLERY-->
-    <!--START SERVICES-->
-
-                <div class="container portfolio">
-
-                        <p>Our Portfolio</p>
-                    <div class="row">
-
-                            <div class="col-12 col-md-6 svgs">
-                                <a href="portfolio.html#branding">
-                                    <img src="Branding.svg" alt="" class="img-fluid mx-auto d-block" style="text-align: center;">
-                                </a>
-                            </div>
-
-                            <div class="col-12 col-md-6 svgs">
-                                <a href="portfolio.html#tech">
-                                    <img src="IT Development.svg" alt="" class="img-fluid mx-auto text-center">
-                                </a>
-
-                            </div>
-
-                            <div class="col-12 svgs">
-                                <a href="portfolio.html#media">
-                                    <img src="Advert.svg" alt="" class="img-fluid mx-auto d-block" >
-                                </a>
-                            </div>
-
-                    </div>
-
-                    <section class="explore">
-
-                        <a href="#">
-                            <p>Explore 
-                                <i class="fa fa-long-arrow-right"></i>
-                            </p>
-                        </a>
-
-                    </section>
-
-                </div>
-
-
-<!--END SERVICES-->
-
-
-<!--START FORM-->
-
-        <div class="container-fluid contact ">
-            <div class="container "><br><br>
+        <div class="container home-services">
             
-                <div class="row">
+            <p class="mylead">Get to know us</p>
+            <img src="content/vectors/get to know us.svg" class="svg-img" alt="">
+            <p>
+                Catch a glimpse into who we are and what we 
+                stand for.
+            </p>
 
-                    <div class="col-12 col-md-6">
-                        <h1>GOT</h1>
-                        <h1>AN</h1>
-                        <h1>EXCITING</h1>
-                        <h1>PROJECT?</h1>
-                        <h5>Get in touch, We'll assist you.</h5><br>
-                    </div>
+            <div class="row">
 
-                    <div class="col-12 col-md-6">
-                        <form action="">
-                            <div class="form-group">
-                                 <input type="email" class="form-control" placeholder="Email" aria-required="true">
-                            </div>
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            
+                            <img src="content/vectors/brander.svg"  alt="" class="svg-card" srcset=""><br><br>
+                            <p class="lead">Who We Are</p>
+                            <p style="text-align: left;">
+                                Ace is a multipurpose brand that leverages on creativity to provide solutions
+                                for brands in an entire spectrum of services. We are driven to serve You in a
+                                fresh, new way. 
+                            </p>    
 
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Full Name" required>
-                            </div>
-
-                            <div class="form-group">
-                                <input type="tel" class="form-control" placeholder="Phone Number" required>
-                            </div>
-
-                                
-                            <div class="form-group" >
-                                <select class="form-control" id="service" aria-required="true">                          
-                                    <option value="">What service do you require?</option>
-                                    <option value="">Branding</option>
-                                    <option value="">IT Development</option>
-                                    <option value="">Event Logistics</option>
-                                    <option value="">Media/Advertising</option>
-                                    </select>
-                            </div>
-
-                            <div class="form-group">
-                                <textarea class="form-control" id="comment" rows="5" placeholder="Briefly describe your project."></textarea>
-                            </div>
-
-                                <button type="submit" class="submit" >Done</button>
-                            </form><br><br>
                         </div>
+                    </div> 
+                </div>
 
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                        
+                            <img src="content/vectors/digtechh.svg" alt="" class="svg-card" srcset=""><br><br>
+                            <p class="lead">What we do</p>
+                            <p style="text-align: left;">
+                                Ace Playhouse offers services in
+                                <h6 style="text-align: left;">- Branding and Advertising</h6> 
+                                <h6 style="text-align: left;">- Digital Technology</h6>
+                                <h6 style="text-align: left;">- Media</h6>
+                                
+                            </p>     
+
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-12 col-lg-4 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                        
+                            <img src="content/vectors/why.svg" class="svg-card" alt="" srcset=""><br><br>
+                            <p class="lead">Why Ace</p>
+                            <p style="text-align: left;">
+                                We want to give you the best experience you could possibly have, so we have one rule;
+                                You focus on creating magic, let us worry about projecting your image. 
+                            </p>     
+
+                        </div>
+                    </div> 
                 </div>
 
             </div>
         </div><br><br>
-<!--END FORM-->
 
-<!--FOOTER STARTS-->
+<!--END MESSAGE-->
 
-    <footer class="page-footer footer">
-       
-                <div class="container text-center">
-                        <div class="row">
+<!--START CLIENTS-->
+    <div class="wrap">
+        <div class="container clients">
+            <h2>Check out our top clients</h2>
+        </div>
+        <div class="container-fluid slider">
+            <div class="container slide">
+                <div class="wrapper">
 
-                            <div class="col-12 col-md-4">
-                                <a href="#">CAREERS AT ACE</a>
-                            </div>  
-
-                            <div class="col-12 col-md-8 socials">
-                                <a href="#">CONNECT WITH US -</a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-envelope"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-phone"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-Instagram"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-                                <a href="#"><i class="fa fa-whatsapp"></i></a>&nbsp;&nbsp;
-                                <br>
-                            </div>
-
-                           
-
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="360.png" alt="" srcset="" class="image-fluid">
                         </div>
-                </div>                
-    </footer>
-<!--FOOTER ENDS-->
+                        <div class="item">
+                            <img src="1k.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="bratey.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="rayzee.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="keke logo colored.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="felix.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="gtblur.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="mo.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                        <div class="item">
+                            <img src="ofada.png" alt="" srcset="" class="image-fluid">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+<!--END CLIENTS-->
+
+<!--START SERVICES-->
+
+                <div class="container message bottom-message">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="lead">
+                                <br>
+                                In our universe Your imagination becomes reality
+                            </p>
+                            <p class="lead">
+                                Join other world class brands and take advantage of our top notch services today.
+                            </p>
+                            <button class="explore"> <a href="portfolio.html"> Explore Our Universe </a></button>
+                        </div>
+                    </div>
+                </div><br><br>
+
+<!--END SERVICES-->
+
+
+<!--START FOOTER-->
+
+    <div class="hr">
+        <div class="hr1"></div> <div class="hr2"></div> <div class="hr3"></div> <div class="hr4"></div>            
+        <div class="hr1"></div> <div class="hr2"></div> <div class="hr3"></div> <div class="hr4"></div>            
+        <div class="hr5"></div> <div class="hr6"></div> <div class="hr7"></div> <div class="hr8"></div>            
+        <div class="hr4"></div> <div class="hr3"></div> <div class="hr2"></div> <div class="hr1"></div>            
+        <div class="hr4"></div> <div class="hr3"></div> <div class="hr2"></div> <div class="hr1"></div>            
+    </div>
+
+    <div class="container-fluid footerr">
+        <div class="container"><br>
+            <div class="row">
+
+                <div class="col-12 col-xl-6 mb-5">
+                    
+                    <h2>Ace Playhouse</h2>
+                    <p>
+                        Ace is a creative multipurpose brand that offers services in branding and 
+                        advertisement, media, and digital technology. We are a purpose driven brand 
+                        of the tertiary industry sector and with a team of dedicated, hardworking individuals, 
+                        Ace playhouse strives to provide services as close to perfection as one can aspire.
+                    </p>
+                    <button>Learn More</button>
+                </div>
+
+                <div class="col-12 col-xl-3 mb-5">
+                    <h4>Contact Us</h4>
+                    <p>
+                        <a href="#"><i class="fa fa-phone"></i></a>&nbsp;&nbsp;+234 802 335 5656
+                    </p>
+                    <p>
+                        <a href="#"><i class="fa fa-phone"></i></a>&nbsp;&nbsp;+234 802 335 5656
+                    </p>
+                    <p>
+                        <a href="#"><i class="fa fa-envelope"></i></a>&nbsp;&nbsp; ace@gmail.com
+                    </p>
+                    <button class="footer-button">Contact Us</button>
+                </div>
+ 
+                <div class="col-12 col-xl-3 mb-5">
+                    <h4>Connect with Us</h4>
+                    <p>
+                        <a href="#"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-Instagram"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-whatsapp"></i></a>&nbsp;&nbsp;
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!--END FOOTER-->
+
+<!--COPYRIGHT STARTS-->
+
+        <div class="container-fluid copyright">
+            <div class="container"><br>
+                <p>Copyright &copy; 2020, All Rights Reserved, <span class="ace"> Ace Playhouse</span> </p>
+            </div>
+        </div>
+
+<!--COPYRIGHT ENDS-->
 
 
 <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="owl.carousel.min.js"></script>
     <script src="ace.js"></script>
 </body>
 </html>
