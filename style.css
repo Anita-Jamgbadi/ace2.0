@@ -81,11 +81,11 @@
      z-index: 10;
      background-color: #ffffff;
      width: 100%;
-     color: #ff1d83;
+     color: #1b1b1b;
  }
 
  .nav-link {
-     color: #ff1d83;
+     color: #1b1b1b;
  }
 
 .nav-item a:hover {
@@ -497,7 +497,7 @@
 .slider {
     width: 100%;
     height: 40%;
-    background-color: #ffc5e0;
+    background-color: #1b1b1b;
     padding-top: 45px;
     padding-bottom: 25px;
     overflow: hidden;
@@ -514,14 +514,14 @@
 .slide {
     width: 100%;
     height: auto;
-    background-color: #ffc5e0;
+    background-color: #1b1b1b;
 }
 
 .wrapper {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: #ffc5e0;
+    background-color: #1b1b1b;
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -540,15 +540,15 @@
 }
 
 .footerr h2, h4 {
-    color: white;
+    color: #f382b5;
 }
 
 .footerr button {
     padding: 10px;
-    border: 1px solid #a80750;
+    border: 1px solid #ff1d83;
     border-radius: 30px;
     color: #ffffff;
-    background-color: #a80750;
+    background-color: #ff1d83;
     font-size: 18px;
 }
 
@@ -558,7 +558,7 @@
 }
 
 .footerr {
-    background-color: #eb398c;
+    background-color: #1b1b1b;
     color: white;
 }
 
@@ -579,6 +579,7 @@
 .copyright {
     height: 10%;
     text-align: center;
-    color: #fc5fa5;
+    background-color: #1b1b1b;
+    color: #f382b5;
 }
 
