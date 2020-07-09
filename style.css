@@ -574,10 +574,11 @@
 .bottom-message {
     text-align: center;
     height: 30%;
+    margin-bottom: 30px;
 }
 
 .copyright {
-    height: 10%;
+    height: 15%;
     text-align: center;
     background-color: #1b1b1b;
     color: #f382b5;
