@@ -89,19 +89,19 @@
  }
 
 .nav-item a:hover {
-    color: #f8c0d2;
+    color: #facb49;
 }
 
 .carousel-inner img {
     width: 5202px;
-    height: 200px;
+    height: 160px;
 }
 
 @media screen and (min-width: 
 760px) {
     .carousel-inner img {
         width: 5202px;
-        height: 375px;
+        height: 400px;
     }
 }
 
@@ -120,7 +120,7 @@
 }
 
 .myactive {
-    text-decoration: #f8c0d2 overline;
+    text-decoration: #facb49 overline;
 }
 
 .message {
@@ -139,38 +139,38 @@
 
 .message button{
     padding: 8px;
-    background-color: rgb(233, 27, 112);
+    background-color: orange;
     color: white;
     font-size: larger;
-    border: solid 1px rgb(233, 27, 112);
+    border: solid 1px orange;
     border-radius: 30px;
     animation: glow 2s ease-in-out infinite;
 }
 
 @keyframes glow{
     0%{
-        border: solid 5px rgb(233, 27, 112);
-        background-color: rgb(233, 27, 112);
+        border: solid 5px orange;
+        background-color: orange;
     }
 
     25%{
-        border: solid 5px rgb(255, 48, 135);
-        background-color: rgb(255, 48, 135);
+        border: solid 5px rgb(247, 172, 34);
+        background-color: rgb(247, 172, 34);
     }
 
     50%{
-        border: solid 5px rgb(238, 108, 162);
-        background-color: rgb(238, 108, 162);
+        border: solid 5px rgb(235, 174, 61);
+        background-color: rgb(235, 174, 61);
     }
 
     75%{
-        border: solid 5px rgb(255, 48, 135);
-        background-color: rgb(255, 48, 135);
+        border: solid 5px rgb(247, 172, 34);
+        background-color: rgb(247, 172, 34);
     }
 
     100%{
-        border: solid 5px rgb(233, 27, 112);
-        background-color: rgb(233, 27, 112);
+        border: solid 5px orange;
+        background-color: orange;
     }
 }
 
@@ -192,15 +192,16 @@
 
 .contact {
     background-color: whitesmoke;
+    text-align: center;
 }
 
 .submit {
     width: 100%;
     line-height: 25px;
     color: white;
-    background-color: rgb(233, 27, 112);
-    border: 1px solid rgb(233, 27, 112);
-    border-radius: 3px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 30px;
 }
 
 .svgs {
@@ -220,13 +221,14 @@
 }
 
 .page-footer {
-    padding-bottom: 20px;
+    padding-top: 15px;
 }
 
-.page-footer a{
+.footer a, i{
     text-decoration: none;
     color: orange;
 }
+
 .socials a{
     color: black;
 }
@@ -454,50 +456,18 @@
     background-color: rgb(252, 164, 218);
 }
 
-.what {
-    float: right;
-    background-color: #4952d1;
-    color: white;
-}
-
-@media screen and (min-width: 
-760px) {
-    .services {
-        width: 90%;
-        height: auto;
-    }
-}
-
-.svg-img {
-    width: 300px;
-    height: 180px;
-}
-
-.svg-card {
-    width: 250px;
-    height: 250px;
-}
-
 .card-body {
     overflow: hidden;
 }
 
-.wrap h2 {
-    color: #ff1d83;
-}
-
-@media screen and (min-width: 
-760px) {
-    .clients {
-        height: 20%;
-        padding-top: 45px;
-    }
+.wrap h4 {
+    color: orange;
 }
 
 .slider {
     width: 100%;
     height: 40%;
-    background-color: #1b1b1b;
+    background-color: whitesmoke;
     padding-top: 45px;
     padding-bottom: 25px;
     overflow: hidden;
@@ -505,82 +475,70 @@
 }
 
 @media screen and (min-width: 
+760px) {
+    .slider {
+        height: 30%;
+    }
+    .slide {
+        margin-top: 60px;
+    }
+    .clients {
+        height: 20%;
+        padding-top: 45px;
+    }
+    .services {
+        width: 90%;
+        height: auto;
+    }
+    .contact {
+        background-color: whitesmoke;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 
 1000px) {
     .slider {
-        height: 50%;
+        height: 40%;
+    }
+    .slide {
+        margin-top: auto;
     }
 }
 
 .slide {
     width: 100%;
     height: auto;
-    background-color: #1b1b1b;
+    background-color: whitesmoke;
 }
 
 .wrapper {
     width: 100%;
     height: auto;
     overflow: hidden;
-    background-color: #1b1b1b;
+    background-color: whitesmoke;
     padding-top: 15px;
     padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
     margin-left: 15px;
 }
 
-.footerr a{
-    text-decoration: none;
-    color: white;
-}
-
-.footerr a:hover {
-    color: #f183b5;
-}
-
-.footerr h2, h4 {
-    color: #f382b5;
-}
-
-.footerr button {
-    padding: 10px;
-    border: 1px solid #ff1d83;
-    border-radius: 30px;
-    color: #ffffff;
-    background-color: #ff1d83;
-    font-size: 18px;
-}
-
-.footerr button:hover {
-    background-color: #fc5fa5;
-    border-color: #fc5fa5;
-}
-
-.footerr {
-    background-color: #1b1b1b;
-    color: white;
-}
-
-@media screen and (min-width: 
-1000px) {
-    .footerr {
-        width: 100%;
-        height: 45%;
-        padding-top: 15px;
-    }
-}
-
 .bottom-message {
     text-align: center;
     height: 30%;
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.copyright {
-    height: 15%;
-    text-align: center;
-    background-color: #1b1b1b;
-    color: #f382b5;
+.next{
+    color: orange;
+    font-size: 22px;
+    font-weight: lighter;
 }
-
