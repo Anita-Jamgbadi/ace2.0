@@ -1,9 +1,4 @@
-/*var back = document.getElementById('back');
-back.addEventListener('click', goBack);
-function goBack() {
-  window.history.back()
-}
-*/
+
 window.addEventListener('load', load);
 const loader = document.querySelector('.loader-bg');
 
@@ -29,4 +24,10 @@ $('.owl-carousel').owlCarousel({
       }
   }
 })
-
+/*
+let back = document.getElementById('back');
+back.addEventListener('click', goBack);
+function goBack() {
+  window.history.back()
+}
+*/

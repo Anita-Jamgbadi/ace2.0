@@ -82,6 +82,7 @@
      background-color: #ffffff;
      width: 100%;
      color: #1b1b1b;
+     border-bottom:1px solid #1b1b1b;
  }
 
  .nav-link {
@@ -116,7 +117,11 @@
 }
 
 .home-services .card {
-    height: 480px;
+    height: 300px;
+}
+
+.svg-img {
+    fill: orange;
 }
 
 .myactive {
@@ -541,4 +546,22 @@
     color: orange;
     font-size: 22px;
     font-weight: lighter;
+    text-align: left;
+}
+
+.circlearea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #1b1b1b;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
