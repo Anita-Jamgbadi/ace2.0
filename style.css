@@ -13,10 +13,13 @@
     top: 0;
  }
 
+ .h-50 {
+     top: 0;
+ }
+
  .hr {
      width: 100%;
      height: 3px;
-
  }
 
  .hr1 {
@@ -98,13 +101,7 @@
     height: 160px;
 }
 
-@media screen and (min-width: 
-760px) {
-    .carousel-inner img {
-        width: 5202px;
-        height: 400px;
-    }
-}
+
 
 .home-services {
     text-align: center;
@@ -130,6 +127,13 @@
 
 .message {
     text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.message img {
+    width: 300px;
+    height: 300px;
 }
 
 .message img {
@@ -159,18 +163,18 @@
     }
 
     25%{
-        border: solid 5px rgb(247, 172, 34);
-        background-color: rgb(247, 172, 34);
+        border: solid 5px rgb(255, 176, 30);
+        background-color: rgb(255, 176, 30);
     }
 
     50%{
-        border: solid 5px rgb(235, 174, 61);
-        background-color: rgb(235, 174, 61);
+        border: solid 5px rgb(253, 188, 67);
+        background-color: rgb(253, 188, 67);
     }
 
     75%{
-        border: solid 5px rgb(247, 172, 34);
-        background-color: rgb(247, 172, 34);
+        border: solid 5px rgb(255, 176, 30);
+        background-color: rgb(255, 176, 30);
     }
 
     100%{
@@ -226,12 +230,17 @@
 }
 
 .page-footer {
-    padding-top: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer a, i{
     text-decoration: none;
     color: orange;
+}
+
+.footer {
+    font-weight: 600;
 }
 
 .socials a{
@@ -479,10 +488,21 @@
     position: relative;
 }
 
-@media screen and (min-width: 
-760px) {
+.clients {
+    height: 20%;
+    padding-top: 45px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.slide {
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 
+992px) {
     .slider {
-        height: 30%;
+        
     }
     .slide {
         margin-top: 60px;
@@ -497,17 +517,43 @@
     }
     .contact {
         background-color: whitesmoke;
-        text-align: left;
+        text-align: center;
     }
+    .myCarousel {
+        top: 0;
+     }
+    
+    .carousel-inner img {
+        width: 5202px;
+        height: 400px;
+    }
+    .header {
+        height: 50%;
+        top: -62px;
+    }
+
 }
 
 @media screen and (min-width: 
-1000px) {
+993px) {
     .slider {
         height: 40%;
     }
     .slide {
         margin-top: auto;
+    }
+    .header {
+        width: 100%;
+        height: 70%;
+    }
+
+}
+
+@media screen and (min-width:
+1100px){
+    .header {
+        width: 100%;
+        height: 80%;
     }
 }
 
@@ -539,7 +585,6 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .next{
@@ -612,4 +657,76 @@
 .next a {
     text-decoration: none;
     color: orange;
+    background-color: rgb();
+}
+
+.home-nav {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    background-color: rgba(245, 245, 245, 0.7);
+    width: 100%;
+    color: #1b1b1b;
+}
+
+.header {
+    position: relative;
+}
+
+.home {
+    text-align: center;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .lead {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.home h4 {
+    font-weight: lighter;
+}
+
+.home p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.home-contact {
+    background-color: orange;
+    animation: glow 2s ease-in-out infinite;
+}
+
+.home-contact button {
+    background-color: orangered;
+    border-color: orangered;
+    color: white;
+}
+
+.mobile {
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    font-weight: bolder;
+    fill: orangered;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: orange;
+    background-size: 120px 120px;
+    background-image: radial-gradient(
+        transparent 7px,orangered 7px,pink 12px,transparent 12px, transparent 17px, orange 17px);
+    animation: glow 2s ease-in-out infinite;
+
 }
