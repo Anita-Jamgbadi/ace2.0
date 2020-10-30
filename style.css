@@ -230,8 +230,8 @@
 }
 
 .page-footer {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .footer a, i{
@@ -255,7 +255,7 @@
 
 .tabby a {
     color: rgb(243, 166, 24);
-    decoration: none;
+    text-decoration: none;
 }
 
 #myTabContent {
@@ -289,11 +289,41 @@
 }
 
 .imagebratey {
-    background-color: #dd99ff;
+    background-color: #550266;
     height: 250px;
     max-width: 100%;
     text-align: center;
 }
+
+.imagesoso {
+    background-color: #ffba08;
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.imageaceven {
+    background-color: #ffba08;
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.imagemigp {
+    background-color: #d9027d;
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.imagebliss {
+    background-color: #ff521b;
+    height: 250px;
+    max-width: 100%;
+    text-align: center;
+}
+
+
 
 .backdrop {
     max-width: 80%;
@@ -776,12 +806,12 @@
 
 #showMore, #showMoreDT, #showMoreMS{
     padding: 2px;
-    background-color: orange;
-    color: white;
+    background-color: white;
+    color: orange;
     font-size: large;
-    border: solid 1px orange;
+    border: solid 1px white;
     border-radius: 7px;
-    animation: glow 2s ease-in-out infinite;
+    margin-left: 15px;
 }
 
 .serviceImg {
