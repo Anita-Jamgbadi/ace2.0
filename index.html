@@ -4,11 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="owl.carousel.min.css">
     <link rel="stylesheet" href="owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
-    
+
     <title>Ace</title>
 
 </head>
@@ -19,13 +19,56 @@
         <img src="logos/ace1c.png" class="load-img" alt="loading...">
     </div>
 
+    <!--Start navbar-->
+
+  <nav class="navbar navbar-expand-xl bg-faded home-nav" >
+        <div class="container my-links">
+
+            <!-- Brand -->
+            <span class="navbar-brand">
+                <img src="logos/ace1c.png" alt="" class="img-fluid" id="pin">
+                ACE PLAYHOUSE
+            </span>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler brand" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                &#9776
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav justify-content-end w-100">
+
+                    <li class="nav-item">
+                        <a class="nav-link myactive" href="index.html">Ace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+<!--End navbar-->
+
+
 <!--START Header-->
     <div class="header">
 
-        <div class="carousel-wrapper">  
+        <div class="carousel-wrapper">
 
             <div id="carouselControls" class="carousel slide myCarousel" data-ride="carousel">
-                
+
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicator" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicator" data-slide-to="0" class="active"></li>
@@ -34,25 +77,29 @@
 
                 <div class="carousel-inner">
 
-                    <div class="carousel-item active">
+                  <div class="carousel-item active">
+                      <img class="d-block w-100 h-100" src="images/staticads.png" alt="first slide">
+                  </div>
+
+                    <div class="carousel-item">
                         <img class="d-block w-100 h-100" src="images/mac.jpg" alt="Second slide">
-                        <div class="carousel-caption d-block d-md-block">
+                        <div class="carousel-caption d-block">
                             <h4>If you can imagine it, we can create it</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100 h-100" src="images/cam.png" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Creative images and videos taken just for you</h2>
+                        <img class="d-block w-100 h-100" src="images/cam.png" alt="third slide">
+                        <div class="carousel-caption d-block d-md-block">
+                            <h4>Creative images and videos taken just for you</h4>
                         </div>
                     </div>
                     <div class="carousel-item ">
-                        <img class="d-block w-100 h-100" src="images/board.png" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Your brand can have the best identity</h2>
+                        <img class="d-block w-100 h-100" src="images/board.png" alt="fourth slide">
+                        <div class="carousel-caption d-block d-md-block">
+                            <h4>Your brand can have the best identity</h4>
                         </div>
-                    </div>        
-                                
+                    </div>
+
                 </div>
                     <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -62,66 +109,16 @@
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                            
+
                 </div>
 
         </div>
 
-        <!--Start navbar-->
 
-        <nav class="navbar navbar-expand-xl bg-faded home-nav" >
-            <div class="container my-links">
 
-                <!-- Brand -->
-                <span class="navbar-brand">
-                    <img src="logos/ace1c.png" alt="" class="img-fluid" id="pin">
-                    ACE PLAYHOUSE
-                </span>
 
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler brand" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                    &#9776
-                </button>                   
-                
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse " id="collapsibleNavbar">
-                    <ul class="navbar-nav justify-content-end w-100">
+<!--END Header--><br>
 
-                        <li class="nav-item">
-                            <a class="nav-link myactive" href="index.html">Ace</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                    
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-    </div><br>    
-<!--End navbar--> 
-
-        <!--div class="container message d-block">
-            <div class="row">
-                <div class="col-12">
-                    <img src="ace1c.png" alt="" class="img-fluid">
-                    <p class="lead">Imagination made believe.</p>
-                    <button class="explore"> <a href="portfolio.html"> Explore Our Universe </a></button>
-                </div>
-            </div>
-        </div><br><br-->
-
-    
-
-<!--END Header--> 
-        <a href="bg.html">koko</a>
 <!--START MESSAGE-->
 
         <div class="container home">
@@ -146,7 +143,7 @@
                 <div class="col-12 col-md-4">
                     <h4>
                         <img src="images/it.svg" class="icon" alt="">
-                        IT Development
+                        Digital Technology
                     </h4>
                 </div>
 
@@ -156,78 +153,22 @@
                         service and creative craftsmanship
                     </p>
                 </div>
-                
+
             </div>
         </div><br><br>
-
-<!--div class="container home-services">
-
-    <div class="row">
-
-        <div class="col-12 col-lg-4 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    
-                    <img src="content/media/group.svg"  alt="" class="svg-img" srcset=""><br><br>
-                    <p class="lead">Who We Are</p>
-                    <p style="text-align: left;">
-                        Ace is a multipurpose brand that leverages on creativity to provide solutions
-                        for brands in an entire spectrum of services. We are driven to serve You in a
-                        fresh, new way. 
-                    </p>    
-
-                </div>
-            </div> 
-        </div>
-
-        <div class="col-12 col-lg-4 mb-3">
-            <div class="card">
-                <div class="card-body">
-                
-                    <img src="content/media/notebook.svg" alt="" srcset=""><br><br>
-                    <p class="lead">What we do</p>
-                    <p style="text-align: left;">
-                        Ace Playhouse offers services in
-                        <h6 style="text-align: left;">- Branding and Advertising</h6> 
-                        <h6 style="text-align: left;">- Digital Technology</h6>
-                        <h6 style="text-align: left;">- Media</h6>
-                        
-                    </p>     
-
-                </div>
-            </div> 
-        </div>
-
-        <div class="col-12 col-lg-4 mb-3">
-            <div class="card">
-                <div class="card-body">
-                
-                    <img src="content/media/mission.svg" alt="" srcset=""><br><br>
-                    <p class="lead">Why Ace</p>
-                    <p style="text-align: left;">
-                        We want to give you the best experience you could possibly have, so we have one rule;
-                        You focus on creating magic, let us worry about projecting your image. 
-                    </p>     
-
-                </div>
-            </div> 
-        </div>
-
-    </div>
-</div><br><br-->
-
 <!--END MESSAGE-->
 
 <!--START CLIENTS-->
     <div class="wrap">
 
-        <div class="container-fluid clients">
-            <div class="container">
-                <h3>Clients that trust Us</h3>
-            </div>
-        </div>
+
 
         <div class="container-fluid slider">
+          <div class="container clients">
+
+                  <h3>Clients That Trust Us</h3>
+
+          </div><br>
             <div class="container slide">
                 <div class="wrapper">
 
@@ -264,7 +205,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div><br><br>
 <!--END CLIENTS-->
 
 <!--START SERVICES-->
@@ -273,17 +214,15 @@
                 <div class="container bottom-message">
                     <div class="row">
 
-                        <div class="col-6 col-md-3">
-                            <img src="images/migp.svg" alt="" id="pin">
-                        </div>
-
                         <div class="col-12">
                             <p class="lead">
                                 Join other world class brands and take advantage of our top notch services today.
                             </p>
+                            <a href="portfolio.html">
                             <button>Explore our universe</button>
+                            </a>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -294,7 +233,7 @@
 
 <div class="container-fluid contact home-contact">
     <div class="container"><br><br>
-    
+
         <div class="row">
 
             <div class="col-12 col-md-6">
@@ -319,9 +258,9 @@
                         <input type="tel" class="form-control" placeholder="Phone Number">
                     </div>
 
-                        
+
                     <div class="form-group">
-                        <select class="form-control" id="service"  >                          
+                        <select class="form-control" id="service"  >
                             <option value="">What service do you require?</option>
                             <option value="">Branding</option>
                             <option value="">IT Development</option>
@@ -352,7 +291,7 @@
 
                     <div class="col-12 col-md-4 footer">
                         <a href="#">CAREERS AT ACE</a>
-                    </div>  
+                    </div>
 
                     <div class="col-12 col-md-8 socials footer mb-1">
                         CONNECT WITH US -&nbsp;&nbsp;
@@ -371,7 +310,7 @@
                     </div-->
 
                 </div>
-        </div>                
+        </div>
 </footer>
 <!--END FOOTER-->
 
